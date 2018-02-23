@@ -27,7 +27,9 @@
             android:name=".AddStudentActivity"
             android:label="Add Student Data"
             android:screenOrientation="portrait" />
-        <activity android:name=".StudentDetailsActivity"></activity>
+        <activity android:name=".StudentDetailsActivity"
+            android:label="Student Details"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
