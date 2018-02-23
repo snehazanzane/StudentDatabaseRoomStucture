@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                         Intent intent=new Intent(MainActivity.this, StudentDetailsActivity.class);
                         intent.putExtra("obj",arrStudents.get(position));
-                        startActivity(intent);
+                        startActivityForResult(intent,REQUEST_CODE);
                     }
 
                     public void onLongClickItem(View v, int position) {

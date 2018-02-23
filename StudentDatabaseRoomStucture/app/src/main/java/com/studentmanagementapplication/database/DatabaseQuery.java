@@ -23,4 +23,7 @@ public interface DatabaseQuery {
     @Query("SELECT * FROM StudentModel ORDER BY percentage DESC")
     List<StudentModel> getAllStudents();
 
+    @Delete
+    int deleteStudent(StudentModel studentModel);
+
 }
